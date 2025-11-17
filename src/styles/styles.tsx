@@ -1,0 +1,1 @@
+export const mainStyles = "grid gap-8 sm-screen:gap-4";
