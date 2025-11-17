@@ -1,8 +1,7 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Condos De La Chichi",
-  description: "Welcome to Condos de la Chichi – where elegance meets comfort! Nestled in a prime location, our luxurious condos offer the perfect retreat for travelers seeking a serene getaway. With exceptional amenities, stylish accommodations, and personalized service, your stay will be nothing short of extraordinary. Experience the charm of Condos de la Chichi, where every detail is designed for your ultimate relaxation.",
+  name: "Krossover",
   navItems: [
     {
       label: "Home",

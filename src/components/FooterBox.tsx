@@ -11,13 +11,13 @@ const FooterBox = () => {
           <strong>Quick Links</strong>
           <article className="flex flex-col">
             <Link className="text-gray-300" href={'/'}> <small>Home</small> </Link>
-            <Link className="text-gray-300" href={'/rooms'}> <small>Room & Suites</small> </Link>
-            <Link className="text-gray-300" href={'/amenities'}> <small>Amenities</small> </Link>
-            <Link className="text-gray-300" href={'/dining'}> <small>Dining</small> </Link>
-            <Link className="text-gray-300" href={'/gallery'}> <small>Gallery</small> </Link>
-            <Link className="text-gray-300" href={'/blog'}> <small>Blog</small> </Link>
-            <Link className="text-gray-300" href={'/contact'}> <small>Contact Us</small> </Link>
-            <Link className="text-gray-300" href={'/rooms'}> <small>Book Now</small> </Link>
+            {/* <Link className="text-gray-300" href={'/rooms'}> <small>Room & Suites</small> </Link> */}
+            {/* <Link className="text-gray-300" href={'/amenities'}> <small>Amenities</small> </Link> */}
+            {/* <Link className="text-gray-300" href={'/dining'}> <small>Dining</small> </Link> */}
+            <Link className="text-gray-300" href={'/'}> <small>Gallery</small> </Link>
+            <Link className="text-gray-300" href={'/'}> <small>Blog</small> </Link>
+            <Link className="text-gray-300" href={'/'}> <small>Contact Us</small> </Link>
+            {/* <Link className="text-gray-300" href={'/rooms'}> <small>Book Now</small> </Link> */}
           </article>
         </section>
 
@@ -26,24 +26,24 @@ const FooterBox = () => {
           <article>
             <strong><small>Address</small></strong>
             <p className="flex flex-col text-gray-300">
-              <small>Condos De-la ChiChi</small>
+              <small>Krossover</small>
               {/* <small>[Street Address]</small> */}
-              <small>Kumasi, Ghana</small>
+              <small>La Bawleshi</small>
             </p>
           </article>
           <article>
             <strong><small>Phone</small></strong>
             <p className="flex flex-col text-gray-300">
-              <small>0509268723</small>
+              <small>0000000000</small>
             </p>
           </article>
           <article>
             <strong><small>E mail</small></strong>
-            <Link href={"mailto:condosdelachichi@gmail.com"} className="flex flex-col text-gray-300">
-              <small>condosdelachichi@gmail.com</small>
+            <Link href={""} className="flex flex-col text-gray-300">
+              <small>krossover@gmail.com</small>
             </Link>
-            <Link href={"mailto:info@condosdelachichi.com"} className="flex flex-col text-gray-300">
-              <small>info@condosdelachichi.com</small>
+            <Link href={""} className="flex flex-col text-gray-300">
+              <small>info@krossover.com</small>
             </Link>
           </article>
         </section>

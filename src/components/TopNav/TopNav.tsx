@@ -14,6 +14,8 @@ import { IoMenu } from "react-icons/io5";
 import { IoCloseOutline } from "react-icons/io5";
 import Image from "next/image";
 import { useState } from "react";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
 
 const TopNav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -55,9 +57,10 @@ const TopNav = () => {
             <span>Reach Us</span>
 
             <p className="flex gap-4 items-center font-bold">
-              <span>F</span>
-              <span>I</span>
-              <span>X</span>
+              <span > <FaFacebookF />  </span>
+              <span > <FaInstagram />  </span>
+              <span > <BsTwitterX />  </span>
+              <span > <FaLinkedinIn />  </span>
             </p>
           </article>
         </section>
@@ -96,7 +99,7 @@ const TopNav = () => {
           </Button>
 
           {/* <article className="bg-secondary  pl-14 pt-3 pb-3 pr-10"> */}
-          <Button color="secondary" radius="none" size="sm" className="mr-14 md-screen:hidden">Learn More</Button>
+          <Button color="secondary" radius="sm" size="sm" className="mr-14 md-screen:hidden">Learn More</Button>
           {/* </article> */}
         </section>
       </section>

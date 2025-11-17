@@ -6,23 +6,23 @@ const ContactBox = () => {
   const channelList = [
     {
       tag: "Call / WhatsApp",
-      val: "0509268723 / 0509268724",
+      val: "0000000000 / 0000000000",
       iconEl: (
-        <MdOutlinePhone className="w-12 h-12 rounded-full border p-3 bg-[var(--theme)] text-white md-screen:w-10 md-screen:h-10" />
+        <MdOutlinePhone className="w-12 h-12 rounded-full border p-3 bg-primary text-white md-screen:w-10 md-screen:h-10" />
       ),
     },
     {
       tag: "E-mail",
-      val: "info@condosdelachichi.com / condosdelachichi@gmail.com",
+      val: "info@krossover.com",
       iconEl: (
-        <MdEmail className="w-12 h-12 rounded-full border p-3 bg-[var(--theme)] text-white md-screen:w-10 md-screen:h-10" />
+        <MdEmail className="w-12 h-12 rounded-full border p-3 bg-primary text-white md-screen:w-10 md-screen:h-10" />
       ),
     },
     {
       tag: "Location",
-      val: "Santasi",
+      val: "La-Bawleshi, Accra, Ghana",
       iconEl: (
-        <MdLocationPin className="w-12 h-12 rounded-full border p-3 bg-[var(--theme)] text-white md-screen:w-10 md-screen:h-10" />
+        <MdLocationPin className="w-12 h-12 rounded-full border p-3 bg-primary text-white md-screen:w-10 md-screen:h-10" />
       ),
     },
   ];
@@ -36,7 +36,7 @@ const ContactBox = () => {
         <article className="flex flex-col gap-1">
           <strong className="text-2xl">Contact Information</strong>
           <small>
-            {"Get in touch with Condos de La-Chichi for bookings, inquiries, or assistance. Our team is available to ensure a seamless stay. Reach out via phone, email, or visit us at our location in Kumasi."}
+            {"Get in touch with us for bookings, inquiries, or assistance. Our team is available to ensure a seamless stay. Reach out via phone, email, or visit us at our location in Kumasi."}
           </small>
         </article>
 
@@ -75,7 +75,7 @@ const ContactBox = () => {
 
           <Button
             endContent={<MdSend />}
-            className="w-max bg-[var(--theme)] text-white sm-screen:w-full"
+            className="w-max bg-primary text-white sm-screen:w-full"
           >
             Send{" "}
           </Button>

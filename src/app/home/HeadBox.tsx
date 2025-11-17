@@ -46,7 +46,7 @@ const HeadBox = () => {
 
           <section className="flex justify-center gap-5 md-screen:hidden">
             {serviceList.map((service, index) => (
-              <div key={index} className="h-28 w-28 p-3  bg-secondary flex items-center justify-center relative">
+              <div key={index} className="h-28 w-28 p-3 rounded-2xl  bg-secondary flex items-center justify-center relative">
                 <div className="text-primary clip-triangle h-14 w-14 bg-white rotate-90 absolute top-0 pl-1 pt-1 left-0">
                   {service.icon}
                 </div>
